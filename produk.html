@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Filter Product</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="fontawesome-5/fontawesome-css/all.css"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="produk.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <ul class="indicator">
+          <li data-filter="all" class="active"><a href="#">All</a></li>
+          <li data-filter="Minimalis"><a href="#">Minimalis</a></li>
+          <li data-filter="Skandinavian"><a href="#">Skandinavian</a></li>
+          <li data-filter="Clasic"><a href="#">Clasic</a></li>
+          <li data-filter="Modern"><a href="#">Modern</a></li>
+          <li data-filter="Industrial"><a href="#">Industrial</a></li>
+        </ul>
+
+        <input type="range" id="priceRange" min="0" max="1000" value="0" />
+        <span id="priceLabel">Price: Rp</span>
+
+        <div class="filter-condition">
+          <span>Filter</span>
+          <select name="" id="select">
+            <option value="Default">Default</option>
+            <option value="LowToHigh">Low to high</option>
+            <option value="HighToLow">High to low</option>
+          </select>
+        </div>
+      </header>
+      <div class="container">
+        <div class="product-field">
+        <ul class="items">
+          <div class="products" data-name="p-1">
+            <li data-category="" data-price="350">
+              <picture>
+                <img
+                  src="./IMAGE/6.jpeg"
+                  alt=""
+                />
+              </picture>
+              <div class="detail">
+                <p class="icon">
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="far fa-share-square"></i></span>
+                  <span><i class="fas fa-shopping-basket"></i></span>
+                </p>
+                <strong>Skandinavian</strong>
+                <span>Deskripsi Rumah.</span>
+                <small>Beli Sekarang</small>
+              </div>
+              <h4>Rp 10.000.000</h4>
+            </li>
+          </div>
+          <div class="products" data-name="p-2">
+            <li data-category="" data-price="350">
+              <picture>
+                <img
+                  src="./IMAGE/6.jpeg"
+                  alt=""
+                />
+              </picture>
+              <div class="detail">
+                <p class="icon">
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="far fa-share-square"></i></span>
+                  <span><i class="fas fa-shopping-basket"></i></span>
+                </p>
+                <strong>Clasic</strong>
+                <span>Deskripsi Rumah</span>
+                <small>Beli Sekarang</small>
+              </div>
+              <h4>Rp 50.000.000,00</h4>
+            </li>
+          </div>
+          <div class="products" data-name="p-3">
+          <li data-category="" data-price="450">
+              <picture>
+                <img
+                  src="./IMAGE/6.jpeg"
+                  alt=""
+                />
+              </picture>
+              <div class="detail">
+                <p class="icon">
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="far fa-share-square"></i></span>
+                  <span><i class="fas fa-shopping-basket"></i></span>
+                </p>
+                <strong>Minimalis</strong>
+                <span>Deskripsi Rumah</span>
+                <small>Beli Sekarang</small>
+              </div>
+              <h4>Rp 100.000.000,00</h4>
+            </li>
+          </div>
+          <div class="products" data-name="p-4">
+            <li data-category="">
+              <picture>
+                <img
+                  src="./IMAGE/6.jpeg"
+                  alt=""
+                />
+              </picture>
+              <div class="detail">
+                <p class="icon">
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="far fa-share-square"></i></span>
+                  <span><i class="fas fa-shopping-basket"></i></span>
+                </p>
+                <strong>Minimalis</strong>
+                <span>Deskripsi Rumah</span>
+                <small>Beli Sekarang</small>
+              </div>
+              <h4>Rp 100.000.000,00</h4>
+            </li>
+          </div>
+          <div class="products" data-name="p-5">
+            <li data-category="">
+              <picture>
+                <img src="./IMAGE/6.jpeg" alt="" />
+              </picture>
+              <div class="detail">
+                <p class="icon">
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="far fa-share-square"></i></span>
+                  <span><i class="fas fa-shopping-basket"></i></span>
+                </p>
+                <strong>Industrial</strong>
+                <span>Deskripsi Rumah</span>
+                <small>Beli Sekarang</small>
+              </div>
+              <h4>Rp 100.000.000</h4>
+            </li>
+          </div>
+          <div class="products" data-name="p-6">
+            <li data-category="">
+              <picture>
+                <img src="./IMAGE/6.jpeg" alt="" />
+              </picture>
+              <div class="detail">
+                <p class="icon">
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="far fa-share-square"></i></span>
+                  <span><i class="fas fa-shopping-basket"></i></span>
+                </p>
+                <strong>Industrial</strong>
+                <span>Deskripsi Rumah</span>
+                <small>Beli Sekarang</small>
+              </div>
+              <h4>Rp 100.000.000</h4>
+            </li>
+          </div>
+          <div class="products" data-name="p-7">
+            <li data-category="">
+              <picture>
+                <img src="./IMAGE/6.jpeg" alt="" />
+              </picture>
+              <div class="detail">
+                <p class="icon">
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="far fa-share-square"></i></span>
+                  <span><i class="fas fa-shopping-basket"></i></span>
+                </p>
+                <strong>Modern</strong>
+                <span>Deskripsi Rumah.</span>
+                <small>Beli Sekarang</small>
+              </div>
+              <h4>Rp 10.000.000</h4>
+            </li>
+          </div>
+          <div class="products" data-name="p-8">
+            <li data-category="" data-price="500">
+              <picture>
+                <img src="./IMAGE/6.jpeg" alt="" />
+              </picture>
+              <div class="detail">
+                <p class="icon">
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="far fa-share-square"></i></span>
+                  <span><i class="fas fa-shopping-basket"></i></span>
+                </p>
+                <strong>Skandinavian</strong>
+                <span>Deskripi Rumah.</span>
+                <small>Beli Sekarang</small>
+              </div>
+              <h4>Rp 10.000.000</h4>
+            </li>
+          </div>
+          <div class="products" data-name="p-9">
+            <li data-category="">
+              <picture>
+                <img src="./IMAGE/6.jpeg" alt="" />
+              </picture>
+              <div class="detail">
+                <p class="icon">
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="far fa-share-square"></i></span>
+                  <span><i class="fas fa-shopping-basket"></i></span>
+                </p>
+                <strong>Skandinavian</strong>
+                <span>Deskripsi Rumah.</span>
+                <small>Beli Sekarang</small>
+              </div>
+              <h4>Rp 100.000.000</h4>
+            </li>
+          </div>
+          <div class="products"  data-name="p-10">
+            <li data-category="">
+              <picture>
+                <img src="./IMAGE/6.jpeg" alt="" />
+              </picture>
+              <div class="detail">
+                <p class="icon">
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="far fa-share-square"></i></span>
+                  <span><i class="fas fa-shopping-basket"></i></span>
+                </p>
+                <strong>Industrial</strong>
+                <span>Deskripsi Rumah.</span>
+                <small>Beli Rumah</small>
+              </div>
+              <h4>Rp 10.000.000</h4>
+            </li>
+          </div>
+          <div class="products"  data-name="p-11">
+            <li data-category="">
+              <picture>
+                <img src="./IMAGE/6.jpeg" alt="" />
+              </picture>
+              <div class="detail">
+                <p class="icon">
+                  <span><i class="far fa-heart"></i></span>
+                  <span><i class="far fa-share-square"></i></span>
+                  <span><i class="fas fa-shopping-basket"></i></span>
+                </p>
+                <strong>Modern</strong>
+                <span>Deskripsi Rumah.</span>
+                <small>Beli Sekarang</small>
+              </div>
+              <h4>Rp 10.000.000.000</h4>
+            </li>
+          </div>
+          <div class="products"  data-name="p-12">
+          <li data-category="">
+            <picture>
+              <img src="./IMAGE/6.jpeg" alt="" />
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>Modern</strong>
+              <span>Deskripsi Rumah</span>
+              <small>Beli Sekarang</small>
+            </div>
+            <h4>Rp 10.000.000</h4>
+          </li>
+        </div>
+          <div class="products"  data-name="p-13">
+          <li data-category="">
+            <picture>
+              <img src="./IMAGE/6.jpeg" alt="" />
+            </picture>
+            <div class="detail">
+              <p class="icon">
+                <span><i class="far fa-heart"></i></span>
+                <span><i class="far fa-share-square"></i></span>
+                <span><i class="fas fa-shopping-basket"></i></span>
+              </p>
+              <strong>Clasic</strong>
+              <span>Deskripsi Rumah.</span>
+              <small>Beli Sekarang</small></a>
+            </div>
+            <h4>Rp 1.000.000.000</h4>
+          </li>
+        </div>
+      </div>
+    </ul>
+       <!-- bebas -->
+        <div class="products-preview" >
+        <div class="preview" data-target="p-1">
+           <i class="fas fa-times"></i>
+           <img src="./IMAGE/6.jpeg" alt="">
+           <h3>Minimalis</h3>
+           <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>( 250 )</span>
+            <div class="bed">
+              <i class='bx bx-bed'>3</i>
+              <i class='bx bx-home'>4</i>
+              <i class='bx bx-checkbox' >3x3</i>
+              <i class='bx bxs-shower'>5</i>
+            </div>
+           </div>
+           <p>Rumah minimalis sederhana memiliki ciri tata ruang yang sederhana, polos, dan efisien dengan volume ruang bertingkat. Bentuk sederhana, denah lantai terbuka, dinding interior minimal, area penyimpanan sederhana, dan penekanan pada keleluasaan pandangan adalah ciri khas dari denah rumah minimalis.</p>
+           <div class="price">Rp 500.000.000,00</div>
+           <div class="buttons">
+              <a href="https://docs.google.com/forms/d/1dVkgQsQ3wJSi47cPwyw23IO-OzHLHBHJuu2sJM1L3-k/edit?usp=forms_home&ths=true" class="buy">Beli Sekarang</a>
+              <a href="#" class="cart">Tambah ke Keranjang</a>
+           </div>
+        </div>
+     
+        <div class="preview" data-target="p-2">
+           <i class="fas fa-times"></i>
+           <img src="./IMAGE/6.jpeg" alt="">
+           <h3>organic onions</h3>
+           <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          <div class="bed">
+            <i class='bx bx-bed'>3</i>
+            <i class='bx bx-home'>4</i>
+            <i class='bx bx-checkbox' >3x3</i>
+            <i class='bx bxs-shower'>5</i>
+          </div>
+         </div>
+         <p>Rumah minimalis sederhana memiliki ciri tata ruang yang sederhana, polos, dan efisien dengan volume ruang bertingkat. Bentuk sederhana, denah lantai terbuka, dinding interior minimal, area penyimpanan sederhana, dan penekanan pada keleluasaan pandangan adalah ciri khas dari denah rumah minimalis.</p>
+         <div class="price">Rp 500.000.000,00</div>
+         <div class="buttons">
+            <a href="https://docs.google.com/forms/d/1dVkgQsQ3wJSi47cPwyw23IO-OzHLHBHJuu2sJM1L3-k/edit?usp=forms_home&ths=true" class="buy">Beli Sekarang</a>
+            <a href="#" class="cart">Tambah ke Keranjang</a>
+         </div>
+        </div>
+     
+        <div class="preview" data-target="p-3">
+           <i class="fas fa-times"></i>
+           <img src="./IMAGE/6.jpeg" alt="">
+           <h3>organic tomatoes</h3>
+           <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          <div class="bed">
+            <i class='bx bx-bed'>3</i>
+            <i class='bx bx-home'>4</i>
+            <i class='bx bx-checkbox' >3x3</i>
+            <i class='bx bxs-shower'>5</i>
+          </div>
+         </div>
+         <p>Rumah minimalis sederhana memiliki ciri tata ruang yang sederhana, polos, dan efisien dengan volume ruang bertingkat. Bentuk sederhana, denah lantai terbuka, dinding interior minimal, area penyimpanan sederhana, dan penekanan pada keleluasaan pandangan adalah ciri khas dari denah rumah minimalis.</p>
+         <div class="price">Rp 500.000.000,00</div>
+         <div class="buttons">
+            <a href="https://docs.google.com/forms/d/1dVkgQsQ3wJSi47cPwyw23IO-OzHLHBHJuu2sJM1L3-k/edit?usp=forms_home&ths=true" class="buy">Beli Sekarang</a>
+            <a href="#" class="cart">Tambah ke Keranjang</a>
+         </div>
+        </div>
+     
+        <div class="preview" data-target="p-4">
+           <i class="fas fa-times"></i>
+           <img src="./IMAGE/6.jpeg" alt="">
+           <h3>organic brinjal</h3>
+           <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          <div class="bed">
+            <i class='bx bx-bed'>3</i>
+            <i class='bx bx-home'>4</i>
+            <i class='bx bx-checkbox' >3x3</i>
+            <i class='bx bxs-shower'>5</i>
+          </div>
+         </div>
+         <p>Rumah minimalis sederhana memiliki ciri tata ruang yang sederhana, polos, dan efisien dengan volume ruang bertingkat. Bentuk sederhana, denah lantai terbuka, dinding interior minimal, area penyimpanan sederhana, dan penekanan pada keleluasaan pandangan adalah ciri khas dari denah rumah minimalis.</p>
+         <div class="price">Rp 500.000.000,00</div>
+         <div class="buttons">
+            <a href="https://docs.google.com/forms/d/1dVkgQsQ3wJSi47cPwyw23IO-OzHLHBHJuu2sJM1L3-k/edit?usp=forms_home&ths=true" class="buy">Beli Sekarang</a>
+            <a href="#" class="cart">Tambah ke Keranjang</a>
+         </div>
+        </div>
+     
+        <div class="preview" data-target="p-5">
+           <i class="fas fa-times"></i>
+           <img src="./IMAGE/6.jpeg" alt="">
+           <h3>organic broccoli</h3>
+           <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          <div class="bed">
+            <i class='bx bx-bed'>3</i>
+            <i class='bx bx-home'>4</i>
+            <i class='bx bx-checkbox' >3x3</i>
+            <i class='bx bxs-shower'>5</i>
+          </div>
+         </div>
+         <p>Rumah minimalis sederhana memiliki ciri tata ruang yang sederhana, polos, dan efisien dengan volume ruang bertingkat. Bentuk sederhana, denah lantai terbuka, dinding interior minimal, area penyimpanan sederhana, dan penekanan pada keleluasaan pandangan adalah ciri khas dari denah rumah minimalis.</p>
+         <div class="price">Rp 500.000.000,00</div>
+         <div class="buttons">
+            <a href="https://docs.google.com/forms/d/1dVkgQsQ3wJSi47cPwyw23IO-OzHLHBHJuu2sJM1L3-k/edit?usp=forms_home&ths=true" class="buy">Beli Sekarang</a>
+            <a href="#" class="cart">Tambah ke Keranjang</a>
+         </div>
+        </div>
+     
+        <div class="preview" data-target="p-6">
+           <i class="fas fa-times"></i>
+           <img src="./IMAGE/6.jpeg" alt="">
+           <h3>organic potatoes</h3>
+           <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          <div class="bed">
+            <i class='bx bx-bed'>3</i>
+            <i class='bx bx-home'>4</i>
+            <i class='bx bx-checkbox' >3x3</i>
+            <i class='bx bxs-shower'>5</i>
+          </div>
+         </div>
+         <p>Rumah minimalis sederhana memiliki ciri tata ruang yang sederhana, polos, dan efisien dengan volume ruang bertingkat. Bentuk sederhana, denah lantai terbuka, dinding interior minimal, area penyimpanan sederhana, dan penekanan pada keleluasaan pandangan adalah ciri khas dari denah rumah minimalis.</p>
+         <div class="price">Rp 500.000.000,00</div>
+         <div class="buttons">
+            <a href="https://docs.google.com/forms/d/1dVkgQsQ3wJSi47cPwyw23IO-OzHLHBHJuu2sJM1L3-k/edit?usp=forms_home&ths=true" class="buy">Beli Sekarang</a>
+            <a href="#" class="cart">Tambah ke Keranjang</a>
+         </div>
+        </div>
+
+        <div class="preview" data-target="p-7">
+           <i class="fas fa-times"></i>
+           <img src="./IMAGE/6.jpeg" alt="">
+           <h3>organic potatoes</h3>
+           <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          <div class="bed">
+            <i class='bx bx-bed'>3</i>
+            <i class='bx bx-home'>4</i>
+            <i class='bx bx-checkbox' >3x3</i>
+            <i class='bx bxs-shower'>5</i>
+          </div>
+         </div>
+         <p>Rumah minimalis sederhana memiliki ciri tata ruang yang sederhana, polos, dan efisien dengan volume ruang bertingkat. Bentuk sederhana, denah lantai terbuka, dinding interior minimal, area penyimpanan sederhana, dan penekanan pada keleluasaan pandangan adalah ciri khas dari denah rumah minimalis.</p>
+         <div class="price">Rp 500.000.000,00</div>
+         <div class="buttons">
+            <a href="https://docs.google.com/forms/d/1dVkgQsQ3wJSi47cPwyw23IO-OzHLHBHJuu2sJM1L3-k/edit?usp=forms_home&ths=true" class="buy">Beli Sekarang</a>
+            <a href="#" class="cart">Tambah ke Keranjang</a>
+         </div>
+        </div>
+
+        <div class="preview" data-target="p-9">
+           <i class="fas fa-times"></i>
+           <img src="./IMAGE/6.jpeg" alt="">
+           <h3>organic potatoes</h3>
+           <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          <div class="bed">
+            <i class='bx bx-bed'>3</i>
+            <i class='bx bx-home'>4</i>
+            <i class='bx bx-checkbox' >3x3</i>
+            <i class='bx bxs-shower'>5</i>
+          </div>
+         </div>
+         <p>Rumah minimalis sederhana memiliki ciri tata ruang yang sederhana, polos, dan efisien dengan volume ruang bertingkat. Bentuk sederhana, denah lantai terbuka, dinding interior minimal, area penyimpanan sederhana, dan penekanan pada keleluasaan pandangan adalah ciri khas dari denah rumah minimalis.</p>
+         <div class="price">Rp 500.000.000,00</div>
+         <div class="buttons">
+            <a href="https://docs.google.com/forms/d/1dVkgQsQ3wJSi47cPwyw23IO-OzHLHBHJuu2sJM1L3-k/edit?usp=forms_home&ths=true" class="buy">Beli Sekarang</a>
+            <a href="#" class="cart">Tambah ke Keranjang</a>
+         </div>
+        </div>
+
+        <div class="preview" data-target="p-10">
+           <i class="fas fa-times"></i>
+           <img src="./IMAGE/6.jpeg" alt="">
+           <h3>organic potatoes</h3>
+           <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          <div class="bed">
+            <i class='bx bx-bed'>3</i>
+            <i class='bx bx-home'>4</i>
+            <i class='bx bx-checkbox' >3x3</i>
+            <i class='bx bxs-shower'>5</i>
+          </div>
+         </div>
+         <p>Rumah minimalis sederhana memiliki ciri tata ruang yang sederhana, polos, dan efisien dengan volume ruang bertingkat. Bentuk sederhana, denah lantai terbuka, dinding interior minimal, area penyimpanan sederhana, dan penekanan pada keleluasaan pandangan adalah ciri khas dari denah rumah minimalis.</p>
+         <div class="price">Rp 500.000.000,00</div>
+         <div class="buttons">
+            <a href="https://docs.google.com/forms/d/1dVkgQsQ3wJSi47cPwyw23IO-OzHLHBHJuu2sJM1L3-k/edit?usp=forms_home&ths=true" class="buy">Beli Sekarang</a>
+            <a href="#" class="cart">Tambah ke Keranjang</a>
+         </div>
+        </div>
+        <div class="preview" data-target="p-11">
+           <i class="fas fa-times"></i>
+           <img src="./IMAGE/6.jpeg" alt="">
+           <h3>organic potatoes</h3>
+           <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          <div class="bed">
+            <i class='bx bx-bed'>3</i>
+            <i class='bx bx-home'>4</i>
+            <i class='bx bx-checkbox' >3x3</i>
+            <i class='bx bxs-shower'>5</i>
+          </div>
+         </div>
+         <p>Rumah minimalis sederhana memiliki ciri tata ruang yang sederhana, polos, dan efisien dengan volume ruang bertingkat. Bentuk sederhana, denah lantai terbuka, dinding interior minimal, area penyimpanan sederhana, dan penekanan pada keleluasaan pandangan adalah ciri khas dari denah rumah minimalis.</p>
+         <div class="price">Rp 500.000.000,00</div>
+         <div class="buttons">
+            <a href="https://docs.google.com/forms/d/1dVkgQsQ3wJSi47cPwyw23IO-OzHLHBHJuu2sJM1L3-k/edit?usp=forms_home&ths=true" class="buy">Beli Sekarang</a>
+            <a href="#" class="cart">Tambah ke Keranjang</a>
+         </div>
+        </div>
+        <div class="preview" data-target="p-12">
+           <i class="fas fa-times"></i>
+           <img src="./IMAGE/6.jpeg" alt="">
+           <h3>organic potatoes</h3>
+           <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+          <div class="bed">
+            <i class='bx bx-bed'>3</i>
+            <i class='bx bx-home'>4</i>
+            <i class='bx bx-checkbox' >3x3</i>
+            <i class='bx bxs-shower'>5</i>
+          </div>
+         </div>
+         <p>Rumah minimalis sederhana memiliki ciri tata ruang yang sederhana, polos, dan efisien dengan volume ruang bertingkat. Bentuk sederhana, denah lantai terbuka, dinding interior minimal, area penyimpanan sederhana, dan penekanan pada keleluasaan pandangan adalah ciri khas dari denah rumah minimalis.</p>
+         <div class="price">Rp 500.000.000,00</div>
+         <div class="buttons">
+            <a href="https://docs.google.com/forms/d/1dVkgQsQ3wJSi47cPwyw23IO-OzHLHBHJuu2sJM1L3-k/edit?usp=forms_home&ths=true" class="buy">Beli Sekarang</a>
+            <a href="#" class="cart">Tambah ke Keranjang</a>
+         </div>
+        </div>
+     
+     </div>
+    </div>
+
+
+    </main>
+  </body>
+</html>
+<script type="text/javascript" src="main.js"></script>
+<script>
+  const priceRange = document.getElementById("priceRange");
+  const priceLabel = document.getElementById("priceLabel");
+  const products = document.querySelectorAll(".products");
+
+  priceRange.addEventListener("input", updatePriceFilter);
+
+  function updatePriceFilter() {
+    const priceValue = priceRange.value;
+    priceLabel.textContent = `Price: $${priceValue}`;
+
+    products.forEach((product) => {
+      const productPrice = parseInt(product.getAttribute("data-price"));
+      if (productPrice <= priceValue) {
+        product.style.display = "block";
+      } else {
+        product.style.display = "none";
+      }
+    });
+  }
+</script>
